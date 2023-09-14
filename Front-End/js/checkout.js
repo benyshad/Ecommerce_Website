@@ -668,14 +668,11 @@ class Test {
 
 class StripeInt {
   static stripeFunc() {
-    // This is your publishable API key.
-    const stripe = Stripe(
-      "pk_live_51LZ75OJecRuvcSJVG2Tnqv60IZ3AiIFDtVtx3OG4UjL8f4xi2gsMsgusfEVXyjl2o1eW2Yd1WGJljJmh1oipSz7s00SDpzIpOs"
-    );
 
-    // const stripe = Stripe(
-    //   "pk_test_51LZ75OJecRuvcSJV5H3HC7xYi4FRRq3CypOecOnhLBG5g5oUgjoeJdIDwZcJnVA6DIAQKHfNBtnHGatuoRQM1Gvt00dg6WbwNH"
-    // );
+    //REPLACE WITH STRIPE LIKE API PUBLISHABLE KEY
+    const stripe = Stripe(
+      "pk_test_51LZ75OJecRuvcSJV5H3HC7xYi4FRRq3CypOecOnhLBG5g5oUgjoeJdIDwZcJnVA6DIAQKHfNBtnHGatuoRQM1Gvt00dg6WbwNH"
+    );
 
     // The items the customer wants to buy
     let cartItems = JSON.parse(window.localStorage.getItem("cart"));
@@ -701,7 +698,7 @@ class StripeInt {
     async function initialize() {
       let cartItems = JSON.parse(window.localStorage.getItem("cart"));
       const response = await fetch(
-        "https://9ob4lub4d6.execute-api.us-east-1.amazonaws.com/default/create-payment-intent",
+        "REPLACE WITH LAMDA API URL",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
