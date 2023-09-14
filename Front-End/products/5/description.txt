@@ -1,0 +1,28 @@
+      <div>
+        <div>
+            <p>Designed for babies - Our Baby Bassinets are the ideal baby furniture to meet your nursery needs. Our Baby Bassinets cradle adopts a strong, sturdy frame and a comfortable and broad base.</p>
+            <p>Multifunctional 3-In-1 baby furniture - Use our multifunctional Baby Bassinets to take care of it all day long. With a removable side panels which is convenient for you to use when you need to feed or change your baby. With your baby by your side, you can relax and get some much-needed rest.</p>
+            <p>Easy to set up - With easy-to-follow instructions, you can immediately set up your baby cradle. Comes with a comfortable, washable mattress and user manual. The detachable side allows it to be easily fixed on the parents&apos; bed.</p>
+            <p><br></p>
+        </div>
+    </div>
+    <div><br></div>
+
+    <div>
+      <div><strong>Specifications：</strong>
+          <ul>
+              <li>Color: Beige</li>
+              <li>Adjustable Height: 30-34in</li>
+              <li>Applicable Age: 0-6 Months</li>
+              <li>Load Bearing: 44LB</li>
+          </ul><strong>Features:</strong>
+          <ul>
+              <li>A detachable sidebar allows it to be easily attached to the parent&apos;s bed.</li>
+              <li>A bedside crib is good for taking care of kids at night and improving their sleep quality.</li>
+              <li>Retractable feet make it easy to place beside the bed and the sofa.</li>
+              <li>adjustable heights to meet the different needs of parents.</li>
+              <li>Tilt angle will effectively prevent the baby from refluxing and spitting milk.</li>
+          </ul>
+      </div>
+  </div>
+  <div><svg fill="currentColor" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"></svg><br></div>

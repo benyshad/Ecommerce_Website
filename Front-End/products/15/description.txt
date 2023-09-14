@@ -1,0 +1,41 @@
+<table style="margin-right: calc(58%); width: 42%;">
+    <tbody>
+        <tr>
+            <td><span style="font-size: 17px;">Brand</span></td>
+            <td><span style="font-size: 17px;">KIND LAUNDRY</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: 17px;">Item Form</span></td>
+            <td><span style="font-size: 17px;">Sheet</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: 17px;">Scent</span></td>
+            <td><span style="font-size: 17px;">Ocean Breeze</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: 17px;">Unit Count</span></td>
+            <td><span style="font-size: 17px;">60 Count</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: 17px;">Material Type Free</span></td>
+            <td><span style="font-size: 17px;">Bleach Free</span></td>
+        </tr>
+    </tbody>
+</table>
+<p><br></p>
+<h1><span style="font-size: 36px;">About this item</span></h1>
+<ul>
+    <li style="font-size: 17px;">A Fresh Routine &ndash; Imagine if laundry day meant tossing 1-3 liquidless laundry detergent sheets in your load&mdash;no mess, measuring, residue, or waste. Washing with Kind Laundry is clean, clever, and convenient.</li>
+    <li style="font-size: 17px;">Pure and Potent &ndash; Achieve a powerful, plant-based clean with Coco Boost Technology laundry strips. Sapindus, tree seed, enzymes, kaolin, and sunflower oil can naturally cleanse, soften, lift stains, and deodorize.</li>
+    <li style="font-size: 17px;">A Gentle Touch &ndash; Enjoy cozy, fresh laundry that is kind to even sensitive baby skin. Your laundry detergent sheets are unscented, starch-free, and dissolve at any temperature without residue.</li>
+    <li style="font-size: 17px;">Take a Load Off &ndash; Forget about heavy jugs, goopy spills, or smelly clothes on the road. Your 60 compact travel laundry detergent sheets make staying fresh while you travel a total breeze.</li>
+    <li style="font-size: 17px;">Our Purpose Is Clear &ndash; To deliver a person- and earth-first alternative to chemical-laden washer soaps. Help us eliminate stress and plastic waste 1 eco laundry detergent sheet at a time.</li>
+</ul>
+<p><label for="check2"><strong><span style="font-size: 36px;">Ingredients</span></strong></label></p>
+<div>
+    <p><span style="font-size: 17px;">Full ingredient list:<br><br>SDS (Sodium Dodecyl Sulfate), Tea Seed Oil, Fatty Alcohol Polyglycol Ether, PVA, Water, Decyl Glucoside, Glycerol, Cocamidopropyl betaine, Citric acid monohydrate</span></p>
+    <p><br></p><label for="check3"><span style="font-size: 36px;"><strong>Directions</strong></span></label>
+    <div>
+        <p><span style="font-size: 17px;">Simply throw one (1) pre-measured sheet in with your laundry<br>For a boost of cleaning power, add two (2) sheets<br>For extra-large loads, such as bedding, add three (3) sheets</span></p>
+    </div>
+</div>

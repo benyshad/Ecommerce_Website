@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- PAYMENT SECTION -->
+    <div style="border: 1px solid #ced4da; border-radius: 0.375rem; padding: 0.375rem 0.75rem" class="my-3">
+        <h4 class="mb-3">Payment</h4>
+        <p>All transactions are secure and encrypted.</p>
+
+        <!-- Display a payment form -->
+
+        <form id="payment-form">
+          <div id="payment-element">
+
+            <!--Stripe.js injects the Payment Element-->
+
+          </div>
+          <button id="submit" class="w-100 btn btn-primary btn-lg my-4">
+            <div class="spinner hidden" id="spinner"></div>
+            <span id="button-text">Complete Checkout</span>
+          </button>
+          <div id="payment-message" class="hidden"></div>
+        </form>
+
+      </div>
+</body>
+</html>

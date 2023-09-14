@@ -1,0 +1,45 @@
+<div>
+    <div>
+        <table style="margin-right: calc(53%); width: 47%;">
+            <tbody>
+                <tr>
+                    <td>Brand</td>
+                    <td>Dansi</td>
+                </tr>
+                <tr>
+                    <td>Power Source</td>
+                    <td>AA Battery Powered (Not Included)</td>
+                </tr>
+                <tr>
+                    <td>Water Resistance Level</td>
+                    <td>Waterproof</td>
+                </tr>
+                <tr>
+                    <td>Mounting Type</td>
+                    <td>Frame Mount</td>
+                </tr>
+                <tr>
+                    <td>Auto Part Position</td>
+                    <td>Rear</td>
+                </tr>
+                <tr>
+                    <td>International Protection Rating</td>
+                    <td>IP65</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<div>
+    <div>
+        <hr>
+        <h1>About this item</h1>
+        <ul>
+            <li>ILLUMINATES YOUR WAY - The DANSI bike light is pleasantly bright, with a luminosity of 30 LUX, but if you need less brightness, the light also offers a half as strong level with 15 LUX for energy saving.</li>
+            <li>BATTERY CHANGE INDICATOR - No more surprises that the light fails halfway through your ride. The lamp shows you the battery level with a smart battery change indicator and gives you the opportunity to change the batteries in time.</li>
+            <li>TOOL-FREE MOUNTING - The bike light can be easily and quickly attached to any bike with the included mount.</li>
+            <li>WATERPROOF &amp; 15H LIGHT DURATION - The light duration is approximately 15h for the taillight and 10h for the front light.</li>
+            <li>OVER 100 YEARS - ITALIAN TRADITIONAL BRAND - DANSI was founded in 1918 in Varese by Armando Dansi and combines experience with modern design for innovative products in the cycling secto</li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+{
+  "allItems": [
+    {
+      "sys": { "id": "14" },
+      "fields": {
+        "title": "DANSI Bike Lights for Night Riding, Super Bright with Flashing Functions",
+        "price": 9.99,
+        "stock": 10,
+        "image": {
+          "fields": { "file": { "url": "products/14/front.jpg" } }
+        },
+        "imgCount": 7,
+        "imgType": "jpg",
+        "imgLinks": [
+          "https://i.ibb.co/ZGLB3Nm/1.jpg",
+          "https://i.ibb.co/5MPRs8y/2.jpg",
+          "https://i.ibb.co/SVwzjb7/3.jpg",
+          "https://i.ibb.co/rvCtZr5/4.jpg",
+          "https://i.ibb.co/5Bbv6Zx/5.jpg",
+          "https://i.ibb.co/rZ5JDyK/7.jpg",
+          "https://i.ibb.co/y6btGwh/6.jpg"
+        ]
+      }
+    },
+    {
+      "sys": { "id": "15" },
+      "fields": {
+        "title": "Kind Laundry Scented Detergent Sheets – Eco-Friendly, Zero-Waste, Laundry Soap Strips with a Powerful Cleansing Formula",
+        "price": 12.99,
+        "stock": 10,
+        "image": { "fields": { "file": { "url": "products/15/front.jpg" } } },
+        "imgCount": 6,
+        "imgType": "jpg",
+        "imgLinks": [
+          "https://i.ibb.co/CbHfFrP/1.jpg",
+          "https://i.ibb.co/nB1BTsc/2.jpg",
+          "https://i.ibb.co/VWtnP97/3.jpg",
+          "https://i.ibb.co/Htb2ZyM/5.jpg",
+          "https://i.ibb.co/60SQQg7/4.jpg",
+          "https://i.ibb.co/1JPtwqP/6.jpg"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- google tag manager for google ads -->
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5NNNM74');</script>
+  <!-- End Google Tag Manager -->
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>USA Closeout Group</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://js.stripe.com/v3/"></script>
+  <link rel="icon" href="https://usacloseoutgroup.com/images/red50.png">
+</head>
+
+<body class="bg-light">
+
+  <!-- Google Tag manager for google ads -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5NNNM74" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+
+
+  <!-- Navbar -->
+  <nav style="background: url(images/bannercropped2.jpg); z-index: 11;" id="nonhamburger"
+    class="navbar navbar-expand-lg ">
+
+  </nav>
+
+  <!-- Navbar dropdown -->
+  <nav style="background: url(images/bannercropped2.jpg); z-index: 10; padding-top: 0; padding-bottom: 0;"
+    id="nonhamburgerDropdown" class="navbar navbar-expand-lg fixed-top">
+
+
+
+  </nav>
+
+  <!-- Hamburger Menu -->
+  <nav id="hamburger" class="navbar navbar-expand-lg bg-dark navbar-dark">
+
+
+  </nav>
+
+
+  <!-- ----Cart------ -->
+  <div class="cart-overlay" style="overflow-y: visable;">
+    <div id="cart" class="cart">
+      <span id="close-cart" class="close-cart">
+        <i class="bi bi-x-square"></i>
+      </span>
+      <h2>Your Cart</h2>
+      <div class="cart-content">
+        <!-- -----Cart Item----- -->
+
+        <!-- ---End Of Cart Item-- -->
+      </div>
+      <div class="cart-footer">
+        <h5>Your Total : $ <span class="cart-total">0</span></h5>
+        <button onclick="UI.checkoutPage()" id="checkout" class="clear-cart cart-btn">CheckOut Now</button>
+      </div>
+    </div>
+  </div>
+  <!-- End Of Cart -->
+
+
+  <!-- Item Description -->
+  <div style="overflow: hidden;" class="mx-2">
+    <div style="padding-top: 8em;" class="row">
+
+      <div class="col-md-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button style="background-color: black;" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+
+          </div>
+
+          <div class="carousel-inner">
+            <div id="carouselActiveImg" class="carousel-item active">
+
+            </div>
+
+          </div>
+
+          <button style="color: black;" class="carousel-control-prev" type="button"
+            data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span style="background-color: black;" class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span style="background-color: black;" class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span style="background-color: black;" class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div style="margin-top: 5%;" class="col-md-6">
+        <p class="newarrival text-center">NEW</p>
+        <h2 id="title" style="color: #555;"></h2>
+        <div class="row m-0 ">
+          <div class="col-lg-3 col-md-4 col-sm-3 col-4 p-0 text-start averageStars">
+            <span class="fa fa-star emptyStar"></span>
+            <span class="fa fa-star emptyStar"></span>
+            <span class="fa fa-star emptyStar"></span>
+            <span class="fa fa-star emptyStar"></span>
+            <span class="fa fa-star emptyStar"></span>
+          </div>
+          <div class="col-4  text-start">
+            <p class="averageStarsNum m-0 p-1">0 Of 5</p>
+          </div>
+        </div>
+        <p id="price" class="price"> </p>
+        <p style="color: red;"><b>FAST AND FREE SHIPPING!</p>
+          <div id="stock">       
+          
+            <!-- <p><b>Availability:</b> In Stock</p> -->
+  
+            <!-- OR -->
+  
+            <!-- <div class="row">
+              <div class="col-xl-2 col-lg-2 col-md-3 col-sm-2 col-3 p-md-0 p-sm-0 ps-0 pe-0" style="margin-left: 13px;">
+                <p><b>Availability:</b> </p>
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-2 col-3 ps-lg-0 p-md-0 m-md-0 text-center red">
+                <p>Only 2 Left</p>
+              </div>
+              <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-3 p-0">
+                <p>In Stock</p>
+              </div>
+            </div> -->
+          </div>
+  
+        <p><b>Condition:</b> New</p>
+        <div style="display: inline;">
+          <div style="width: 45%;" class="input-group mb-3">
+            <label class="input-group-text" for=""> <b>Quantity:</b></label>
+            <select class="form-select" id="qty">
+              <!-- <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option> -->
+            </select>
+          </div>
+
+          <button type="button" class="btn btn-default add-to-cart">Add To Cart</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Item Description -->
+  <div class="container">
+    <h2>About This Item</h2>
+  </div>
+  <div style="overflow: hidden;">
+    <img src="images/line.png" alt="">
+    <h2 class="text-center">FAST AND FREE SHIPPING!</h2>
+    <h4 class="text-center">Receive your order in 3 - 7 business days!</h4>
+  </div>
+  <div style="padding-bottom:3em;" class="container">
+    <p class="lead description">
+
+    </p>
+  </div>
+
+  <div style="overflow: hidden;">
+    <img src="images/line.png" alt="">
+
+
+    <div class="container mt-4">
+      <h1 class="text-center mx-md-0 mx-1 my-5 py-lg-5">Customer Reviews</h1>
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-4 p-md-0 pb-5">
+          <h4 class="text-center">OverAll Customer Reviews</h4>
+          <div class="row">
+            <div class="col-md-7 col-6 text-md-center text-end averageStars">
+              <span class="fa fa-star emptyStar"></span>
+              <span class="fa fa-star emptyStar"></span>
+              <span class="fa fa-star emptyStar"></span>
+              <span class="fa fa-star emptyStar"></span>
+              <span class="fa fa-star emptyStar"></span>
+            </div>
+            <div class="col-4">
+              <p class="averageStarsNum">0 Of 5</p>
+            </div>
+          </div>
+
+          <div>
+
+            <div class="row d-flex align-items-center">
+              <div class="col-xl-3 col-4 text-xl-end text-lg-center text-end">5 Stars</div>
+              <div class="col-xl-8 col-6 ">
+                <div style="border: 1px solid black; border-radius: 12px; width: 100%; height: 10px;
+              ">
+                  <div id="fiveStarBar" style="height: 100%; width: 0%; background-color: black;"></div>
+                </div>
+              </div>
+
+              <div id="totalFiveStars" class="col-xl-1 col-2 text-md-end  ">0</div>
+            </div>
+            <div class="row d-flex align-items-center">
+              <div class="col-xl-3 col-4 text-xl-end text-lg-center text-end">4 Stars</div>
+              <div class="col-xl-8 col-6 ">
+                <div style="border: 1px solid black; border-radius: 12px; width: 100%; height: 10px;
+              ">
+                  <div id="fourStarBar" style="height: 100%; width: 0%; background-color: black;"></div>
+                </div>
+              </div>
+
+              <div id="totalFourStars" class="col-xl-1 col-2 text-md-end  ">0</div>
+            </div>
+            <div class="row d-flex align-items-center">
+              <div class="col-xl-3 col-4 text-xl-end text-lg-center text-end">3 Stars</div>
+              <div class="col-xl-8 col-6 ">
+                <div style="border: 1px solid black; border-radius: 12px; width: 100%; height: 10px;
+              ">
+                  <div id="threeStarBar" style="height: 100%; width: 0%; background-color: black;"></div>
+                </div>
+              </div>
+
+              <div id="totalThreeStars" class="col-xl-1 col-2 text-md-end  ">0</div>
+            </div>
+            <div class="row d-flex align-items-center">
+              <div class="col-xl-3 col-4 text-xl-end text-lg-center text-end">2 Stars</div>
+              <div class="col-xl-8 col-6 ">
+                <div style="border: 1px solid black; border-radius: 12px; width: 100%; height: 10px;
+              ">
+                  <div id="twoStarBar" style="height: 100%; width: 0%; background-color: black;"></div>
+                </div>
+              </div>
+
+              <div id="totalTwoStars" class="col-xl-1 col-2 text-md-end  ">0</div>
+            </div>
+            <div class="row d-flex align-items-center">
+              <div class="col-xl-3 col-4 text-xl-end text-lg-center text-end">1 Stars</div>
+              <div class="col-xl-8 col-6 ">
+                <div style="border: 1px solid black; border-radius: 12px; width: 100%; height: 10px;
+              ">
+                  <div id="oneStarBar" style="height: 100%; width: 0%; background-color: black;"></div>
+                </div>
+              </div>
+
+              <div id="totalOneStars" class="col-xl-1 col-2 text-md-end  ">0</div>
+            </div>
+          </div>
+        </div>
+
+        <div id="reviews" class="col-xl-8 col-lg-8 col-md-7 ms-lg-5">
+          <h2>Be The First To Leave A Review!</h2>
+          <!-- <div class="ms-4">
+            <div class="row text-start">
+              <div class="col-1"><img src="./images/reviewAvatar.jpeg" style="height: 30px; width: 30px;"></div>
+              <div class="col-11 pl-m-0 ps-4">Ben Shadrouz</div>
+              <div>
+                <span class="fa fa-star fullStar"></span>
+                <span class="fa fa-star fullStar"></span>
+                <span class="fa fa-star fullStar"></span>
+                <span class="fa fa-star halfStar"></span>
+                <span class="fa fa-star emptyStar"></span>
+                <p class="h6" style="color:#5c5959">Reviewed in the United States on December 21, 2020</p>
+              </div>
+            </div>
+            <div class="pe-md-0 pe-3">
+              I originally purchased my Eeros about 5 years ago when the original Eeros were released and before the
+              company was acquired by Amazon. Over that time, I have added a lot more devices to my network as well as
+              the
+              available bandwidth in my home. Over that time, it was becoming increasingly clear my Eeros were not
+              cutting
+              it any more in terms the new standards they supported or the ability to keep up with my growing network.
+              So,
+              it was more a question of what I would replace them with.
+
+              I looked at all the usual suspects, but ultimately decided to purchase Eeros again knowing it would not
+              be
+              a
+              hassle to return them to Amazon if I was dissatisfied. I decided to go all the way and purchase the Eero
+              Pro
+              6, although currently most of my home devices do not support WIFI 6. Based on the frequency of updates
+              from
+              Eero and knowing I would continue to add newer devices to my network, I felt comfortable with paying the
+              extra $$$ for the Pro 6 model. I purchased the Eero Pro 6 3 pack.
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer" class="p-2 bg-dark text-center flex-column mt-4">
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="./js/nav_footer.js"></script>
+  <script src="./js/gproduct.js"></script>
+</body>
+
+</html>

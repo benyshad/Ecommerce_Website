@@ -1,0 +1,12 @@
+      <b>Cut The Cable Now &amp; Enjoy Free TV Show With Your Family</b>
+      <br><br>
+      <b>FREE HD Program for Life </b>
+        <br>
+<p>Never pay expensive cable or satellite fees again! Our HDTV Antenna can get access to your local news, weather, sitcoms, kids and sports programs, including ABC, CBS, NBC, PBS, Fox, Univision and more. Absolutely FREE forever.</p>
+<br><br>
+<p><strong>Frequency range:</strong> VHF 47-240MHz; UHF 470-862MHz</p>
+<p><span style='color: rgb(0, 0, 0); font-family: "Times New Roman"; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'><strong>Gain:</strong> 30dBi</span> with amplifier (5dBi without amplifier)</p>
+<p><strong>Impedance:</strong> 75ohm</p>
+<p><strong>Noise Figure:</strong> &lt; 2db</p>
+<p><strong>Power Supply: </strong>USB port (DC 5V/500mA)</p>
+<p><strong>Connector Type:</strong> F-male/IEC&nbsp;</p>
